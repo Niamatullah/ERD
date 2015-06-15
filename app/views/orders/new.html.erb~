@@ -1,0 +1,8 @@
+<body style="background:#80BFFF">
+<h1 style="color:#80BFFF"><b>.</b></h1>
+<font size="7" color="pink"><b>New Order</b></font>
+<h1 style="color:#80BFFF"><b>.</b></h1>
+<h2 style= "color:white">
+<%= render 'form' %></h2>
+<h1 style="color:#80BFFF"><b>.</b></h1>
+<h2><%= link_to 'Back', orders_path %></h2>

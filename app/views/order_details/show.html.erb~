@@ -1,0 +1,14 @@
+<body style="background:#80BFFF">
+<p id="notice"><%= notice %></p>
+  <h1 style="color:white">Orders</h1>
+<h1 style="color:#80BFFF">.</h1>
+  <%= @order_detail.order %>
+</p>
+
+<p>
+  <strong>Book:</strong>
+  <%= @order_detail.book %>
+</p>
+
+<%= link_to 'Edit', edit_order_detail_path(@order_detail) %> |
+<%= link_to 'Back', order_details_path %>

@@ -1,0 +1,22 @@
+<body style="background:#80BFFF">
+<p id="notice"><%= notice %></p>
+<h1 style="color:white">Show Orders</h1>
+<h1 style="color:#80BFFF">.</h1>
+<thead>
+    <tr bgcolor="blue">
+      <th><h2 style="color:white">Order</h2></th>
+      <th><h2 style="color:white">Date</h2></th>
+      <th><h2 style="color:white">Customer</h2></th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @orders.each do |order| %>
+      <tr bgcolor="white">
+        <td><h2><%= order.order_id %></h2></td>
+        <td><h2><%= order.date %></h2></td>
+        <td><h2><%= order.customer %></h2></td>
+
+</body>
+

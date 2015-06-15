@@ -1,0 +1,22 @@
+<body style="background:#80BFFF">
+<p id="notice"><%= notice %></p>
+<h1 style="color:white">Show Orders</h1>
+<h1 style="color:#80BFFF">.</h1>
+<p>
+  <strong><h2 style="color:white">Order:</h2></strong>
+  <h2><%= @order.order_id %></h2>
+</p>
+<p>
+  <strong><h2 style="color:white">Date:</h2></strong>
+  <h2><%= @order.date %></h2>
+</p>
+
+<p>
+  <strong><h2 style="color:white">Customer:</h2></strong>
+ <h2> <%= @order.customer %></h2>
+</p>
+
+
+
+<h2><%= link_to 'Edit', edit_order_path(@order) %> |
+<%= link_to 'Back', orders_path %></h2>

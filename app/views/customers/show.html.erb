@@ -1,0 +1,11 @@
+<body style="background:#80BFFF">
+<h1 style="color:white">Show Customer Data</h1>
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong><h2 style="color:white">Cust name:</h2></strong>
+  <h2><%= @customer.cust_name %></h2>
+</p>
+
+<h2><%= link_to 'Edit', edit_customer_path(@customer) %> |
+<%= link_to 'Back', customers_path %>

@@ -1,0 +1,25 @@
+<body style="background:#80BFFF">
+<p id="notice"><%= notice %></p>
+<h1 style="color:white">Show Books</h1>
+<h1 style="color:#80BFFF">.</h1>
+
+<p>
+  <strong><h2 style="color:white">Book:</h2></strong>
+ <h2> <%= @book.book_id %></h2>
+</p>
+<h1 style="color:#80BFFF">.</h1>
+
+<p>
+  <strong><h2 style="color:white">Book name:</h2></strong>
+ <h2> <%= @book.book_name %></h2>
+</p>
+<h1 style="color:#80BFFF">.</h1>
+
+<p>
+  <strong><h2 style="color:white">Auther:</h2></strong>
+ <h2> <%= @book.auther %></h2>
+</p>
+
+<h1 style="color:#80BFFF">.</h1>
+<h2><%= link_to 'Edit', edit_book_path(@book) %> |
+<%= link_to 'Back', books_path %></h2>
